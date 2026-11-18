@@ -3,28 +3,28 @@
 class Getdr < Formula
   desc "Command-line tool to check Ahrefs Domain Rating (DR) of domains"
   homepage "https://index-pages.com/getdr/"
-  version "0.2.2"
+  version "0.2.3"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/index-pages/getdr/releases/download/v0.2.2/getdr_0.2.2_darwin_arm64.tar.gz"
-      sha256 "25f8499cf9dc9c06dcf68b9fe68957c0e60a966a830475f9eb9caa3e092b83a6"
+      url "https://github.com/index-pages/getdr/releases/download/v0.2.3/getdr_0.2.3_darwin_arm64.tar.gz"
+      sha256 "44cf859382d96cd442616a0ff9b159aef60414ee727613d8b12d146d1d691669"
     end
     on_intel do
-      url "https://github.com/index-pages/getdr/releases/download/v0.2.2/getdr_0.2.2_darwin_amd64.tar.gz"
-      sha256 "c083b572975b322b75a4db0298558fbcae508930d79a6dbf675bcd8bd947ddc0"
+      url "https://github.com/index-pages/getdr/releases/download/v0.2.3/getdr_0.2.3_darwin_amd64.tar.gz"
+      sha256 "82deb5de1f88bf64dc535734a04b5d2046b568afec9ae6fc572f90c2705aa74e"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/index-pages/getdr/releases/download/v0.2.2/getdr_0.2.2_linux_arm64.tar.gz"
-      sha256 "63203a7a281b6c28bd66c3c5de8961f085668c7c92543be6a55424b78970c8d1"
+      url "https://github.com/index-pages/getdr/releases/download/v0.2.3/getdr_0.2.3_linux_arm64.tar.gz"
+      sha256 "595151f548fecfe71e8df9bb8c2ea8ba6c3c6bd7d36984abf1329092f10a847a"
     end
     on_intel do
-      url "https://github.com/index-pages/getdr/releases/download/v0.2.2/getdr_0.2.2_linux_amd64.tar.gz"
-      sha256 "cd00ff67e93a353316e9136129e0ccec69a90cc40033e7d7378926d31e043f92"
+      url "https://github.com/index-pages/getdr/releases/download/v0.2.3/getdr_0.2.3_linux_amd64.tar.gz"
+      sha256 "601df19129911c92019258df61ce2db3ba25978c436a2d147fc7297c163b4a38"
     end
   end
 
